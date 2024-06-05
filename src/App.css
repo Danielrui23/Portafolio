@@ -21,7 +21,6 @@ html{
 span {
   color: var(--rojo);
 }
-
 .nav-link {
   color: white;
   text-transform: uppercase;
@@ -55,9 +54,7 @@ span {
   color: white;
   font-size: 1.1rem;
   font-weight: 600;
-  
 }
-
 .icons-home {
   color: var(--rojo);
   margin: 20px 10px 0px 10px;
@@ -83,7 +80,6 @@ span {
   color: var(--rojo);
   transition: all 0.3s linear;
 }
-
 /* sobre mi */
 .content-sobremi {
   margin: 5px;
@@ -107,7 +103,6 @@ span {
 }
 .img-perfil {
   box-shadow: 20px 10px 20px 0.5px rgba(1, 12, 64, 0.967);
-  /* box-shadow: 20px 10px 20px 0.5px rgba(223, 7, 7, 0.327); */
   border-radius: 50%;
   width: 80%;
   background-color: var(--AzulOscuro);
