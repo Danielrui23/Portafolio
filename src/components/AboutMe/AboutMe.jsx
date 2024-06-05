@@ -30,7 +30,7 @@ function AboutMe() {
           <Col>
             <div className="content-sobremi-text">
               <p>
-                Como programador web autodidacta, mi entusiasmo por la
+                Como programador web, mi entusiasmo por la
                 tecnología me impulsa a ofrecer soluciones personalizadas para
                 proyectos diversos y estoy comprometido a materializar tus ideas
                 creando sitios web a medida.

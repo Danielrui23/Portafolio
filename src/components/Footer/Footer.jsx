@@ -12,7 +12,7 @@ function Footer() {
   return (
     <Container fluid className="footer-content">
       <div className="copyright">
-        &copy; 2024 - All Rigth Reserved.
+        &copy; 2024 - Gustavo Daniel Ruiz - Frontend Developer
       </div>
       <div className="socials">
         <a href="http://">

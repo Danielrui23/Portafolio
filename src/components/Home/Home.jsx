@@ -10,7 +10,7 @@ const ImageBackgroundComponent = () => {
     <Container fluid className="bg-image-container" id="home">
       <Row>
         <Col className='content-text-home'>
-          <h1 className="text-title">Hola! soy <span>Gustavo </span>Daniel</h1>
+          <h1 className="text-title">Hola<span>!</span> soy <span>Gustavo </span>Daniel<span>.</span></h1>
           <h3 className='text-subtitle animate__animated animate__pulse' >Desarrollador Front-end</h3>
           
           <Col>
