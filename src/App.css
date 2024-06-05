@@ -1,0 +1,159 @@
+:root {
+  --AzulOscuro: #121429;
+  --rojo: rgb(223, 7, 7);
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+.navbg {
+  background-color: var(--AzulOscuro);
+}
+.navbar-brand {
+  color: white;
+  font-weight: 700;
+  font-size: 35px;
+  text-decoration: none;
+}
+.navbar-brand:hover {
+  color: var(--rojo);
+}
+span {
+  color: var(--rojo);
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.nav-link:hover {
+  color: var(--rojo);
+}
+.navbar-nav .nav-link.active{
+  color: var(--rojo);
+}
+.bg-image-container {
+  background: linear-gradient(to right, #121429, #121429d0),
+    url(https://i.imgur.com/Bw5MoFX.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 13%;
+}
+.content-text-home {
+  text-align: center;
+}
+.text-title {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.text-subtitle {
+  padding: 10px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.icons-home {
+  color: var(--rojo);
+  margin: 20px 10px 0px 10px;
+  height: 1.9rem;
+}
+.icons-home:hover {
+  color: white;
+  transition: all 0.3s linear;
+}
+.btn-dcv {
+  border: none;
+  background-color: var(--rojo);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 10px 5px rgba(223, 7, 7, 0.575);
+}
+.btn-dcv:hover {
+  background-color: white;
+  cursor: pointer;
+  color: var(--rojo);
+  transition: all 0.3s linear;
+}
+
+/* sobre mi */
+.content-sobremi {
+  margin: 5px;
+}
+.sobremi {
+  padding: 30px;
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--AzulOscuro);
+}
+.content-sobremi-text p {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 20px;
+}
+.content-perfil {
+  display: flex;
+  justify-content: center;
+}
+.img-perfil {
+  box-shadow: 20px 10px 20px 0.5px rgba(1, 12, 64, 0.967);
+  /* box-shadow: 20px 10px 20px 0.5px rgba(223, 7, 7, 0.327); */
+  border-radius: 50%;
+  width: 80%;
+  background-color: var(--AzulOscuro);
+  margin: 0 0 20px 0;
+}
+.bordes {
+  padding-left: 60px;
+}
+.content-icons {
+  text-align: center;
+  padding: 2px;
+  width: 100%;
+}
+.content-icons h4 {
+  text-align: center;
+  font-weight: 700;
+}
+.icons {
+  color: var(--AzulOscuro);
+  width: 2rem;
+  height: 2rem;
+  margin: 5px;
+}
+
+/* SECCION PROJECTS */
+.footer-content {
+  background-color: var(--AzulOscuro);
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer-content .copyright {
+  color: var(--rojo);
+}
+.card-holder:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 20px 0.5px rgba(1, 12, 64, 0.967);
+  border-radius: 2%;
+}
+.contact-bord {
+  box-shadow: 5px 5px 20px 0.5px rgba(1, 12, 64, 0.967);
+}
+.rowContact {
+  display: flex;
+  justify-content: center;
+}
+.btn-contact:hover {
+  background-color: var(--AzulOscuro);
+  color: var(--rojo);
+}
